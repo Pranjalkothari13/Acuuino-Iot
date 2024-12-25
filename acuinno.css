@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-header{
+    background-color: #212529;
+   
+    margin-bottom: 0;
+    color: aliceblue;
+    /*Use Flexbox for layout*/
+     display: flex; 
+     justify-content: space-between; /* Space out the items */
+     padding: 0 20px;
+}
+.links a{
+    color: white; 
+    text-decoration: none; /* Remove underline */
+    padding: 14px 20px; /* Padding around links */
+    display: inline-block
+
+}
+
+.img-header{
+    margin-top: 0;
+    background-image: url('cloud.jpg');
+    height: 35vh;
+}
+
+h1,h3{
+    text-align: center;
+}
+h1{
+    margin-bottom: 40px;
+}
+
+.btn{
+    color: black;
+    background-color: white;
+    text-shadow: 30px;
+    border-radius: 7px;
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    padding: center;
+    text-shadow: 0px 0px 6px black;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+.btn-container{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 30vh; */
+
+}
+
+h2{
+    text-align: center;
+    /* margin-bottom: 100px; */
+    
+}
+
+.service-container{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 250px 250px 250px 250px;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-items: center;
+    margin-left: 230px;
+    row-gap: 50px;
+    margin-top: 40px;
+    
+}
+
+.button-div{
+    display: inline-block;     
+    padding: 10px 20px;        
+    font-size: 16px;           
+    color: white;             
+    background-color: #007BFF; 
+    text-decoration: none;     
+    border-radius: 5px;        
+    cursor: pointer;   
+}
+
+.button-div:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+img{
+    width: 200px;
+    
+}
+h4,p{
+    margin-top: 15px;
+}
+p{
+    margin-bottom: 15px;
+}
+.aboutus{
+
+    background-color: #99f2c8;
+}
+
+
+.div1{
+margin-right: 30px;
+transition: transform 0.3s ease-in-out;
+}
+.div1:hover{
+    transform: scale(1.2);
+}
+.div2{
+    margin-right: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+.div2:hover{
+    transform: scale(1.2);
+}
+.div3{
+    margin-right: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+.div3:hover{
+    transform: scale(1.2);
+}
+.div4{
+    margin-right: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+.div4:hover{
+    transform: scale(1.2);
+}
+.service-container{
+    padding: 30px;
+}
